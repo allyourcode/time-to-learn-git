@@ -1,2 +1,32 @@
 This edit made in a clone.
 I need to learn about the staging area in git.
+
+<div>
+  <quote src="http://learn.github.com/p/normal.html">
+    Git uses the 'git add' command both to begin tracking files and also
+    to stage changes to them.
+  </quote>
+
+  This confused me at first, because git add does 2 distinct things.
+  Imho, a well designed command does one thing, even though it may
+  involve multiple subtasks. Telling git "this is a new file that
+  should go in the next commit", and telling it "changes to this file
+  should go in the next commit" are two <emph>completely different
+  things</emph>; therefore, their combination is an <emph>unholly
+  mariage</emph>.
+
+  Also, the implicit place where things are added when you use this
+  command is the staging area. From this, you would infer that `git
+  remove` would do the opposite. After realizing that that command
+  doesn't exist, I discovered `git rm`. That doesn't do the opposite
+  of `git add` either! Eventually, I figured out that `git reset` is
+  what I was looking for. Very non-intuative!
+
+  Anyway, this sentence is key, because I was wondering about what
+  `git commit -a` does, because it seems to be analogous to `svn commit`.
+  At this point, I don't believe that's true, because `svn commit` would
+  not commit new file unless you had previously done `svn add` on them;
+  whereas, it seems like `git commit -a` would commit such files, because
+  this command (supposedly) equivalent to doing `git add .` followed by
+  `git commit`.
+</div>
