@@ -12,8 +12,8 @@ I need to learn about the staging area in git.
   involve multiple subtasks. Telling git "this is a new file that
   should go in the next commit", and telling it "changes to this file
   should go in the next commit" are two <emph>completely different
-  things</emph>; therefore, their combination is an <emph>unholly
-  mariage</emph>.
+  things</emph>; therefore, their combination is an <emph>unholy
+  marriage</emph>.
 
   Also, the implicit place where things are added when you use this
   command is the staging area. From this, you would infer that `git
