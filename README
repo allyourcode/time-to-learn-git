@@ -72,3 +72,11 @@ I need to learn about the staging area in git.
   namely `git checkout <new-branch-name>`, to switch to my new branch :/
 </div>
 
+<div class="confict-resolution">
+  <quote src="http://learn.github.com/p/branching.html">
+    When you're done fixing [the merge conflict], all you have to do
+    is run 'git add' on the file to re-stage it, which marks it as
+    resolved. Then commit the merge.
+  </quote>
+</div>
+
