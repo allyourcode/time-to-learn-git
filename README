@@ -15,6 +15,14 @@ I need to learn about the staging area in git.
   things</emph>; therefore, their combination is an <emph>unholy
   marriage</emph>.
 
+  <div class="in-retrospect">
+    Maybe the way `git add` works seems strange to me because I've
+    been using svn for a while. In svn commiting file modifications
+    and file additions is very different because for modifications,
+    you only have to do `svn commit`; but for additions you have to do
+    `svn add` before doing `svn commit`.
+  </div>
+
   Also, the implicit place where things are added when you use this
   command is the staging area. From this, you would infer that `git
   remove` would also implicitly refer to the staging area i.e. do the
