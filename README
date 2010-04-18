@@ -1,7 +1,7 @@
 This edit made in a clone.
 I need to learn about the staging area in git.
 
-<div>
+<div id="git-add">
   <quote src="http://learn.github.com/p/normal.html">
     Git uses the 'git add' command both to begin tracking files and also
     to stage changes to them.
@@ -46,4 +46,12 @@ I need to learn about the staging area in git.
   whereas, it seems like `git commit -a` would commit such files, because
   this command (supposedly) equivalent to doing `git add .` followed by
   `git commit`.
+</div>
+
+<div id="what-a-branch-is">
+  <quote src="http://learn.github.com/p/branching.html">
+    in Git, branches are simply lightweight pointers to a particular
+    commit. The history is simply figured out by traversing the
+    parents, one commit at a time.
+  </quote>
 </div>
