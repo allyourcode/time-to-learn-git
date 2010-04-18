@@ -55,3 +55,11 @@ I need to learn about the staging area in git.
     parents, one commit at a time.
   </quote>
 </div>
+
+<div id="private-branches">
+  <quote src="http://learn.github.com/p/branching.html">
+    Git also importantly lets you keep these branches private if you
+    want - simply don't push them.
+  </quote>
+</div>
+
