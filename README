@@ -65,3 +65,10 @@ I need to learn about the staging area in git.
   This is cool :).
 </div>
 
+<div class="branch-management">
+  You will not switch branches when creating a branch. I guess this
+  follows my "a command should do exactly one thing" principle, but
+  for some reason, I was surprised that I had to do another command,
+  namely `git checkout <new-branch-name>`, to switch to my new branch :/
+</div>
+
