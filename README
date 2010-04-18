@@ -17,10 +17,19 @@ I need to learn about the staging area in git.
 
   Also, the implicit place where things are added when you use this
   command is the staging area. From this, you would infer that `git
-  remove` would do the opposite. After realizing that that command
-  doesn't exist, I discovered `git rm`. That doesn't do the opposite
-  of `git add` either! Eventually, I figured out that `git reset` is
-  what I was looking for. Very non-intuative!
+  remove` would also implicitly refer to the staging area i.e. do the
+  opposite of `git add`. After realizing that that command doesn't
+  exist, I discovered `git rm`. That doesn't do the opposite of `git
+  add` either! Eventually, I figured out that `git reset` is what I
+  was looking for. This is very non-intuative for two reasons:
+
+    <li>
+      In English, "reset" is not the opposite of "add"
+    </li>
+    <li>
+      The argument of `git reset` is a file, which this command does
+      not change. What this file changes is the staging area.
+    </li>
 
   Anyway, this sentence is key, because I was wondering about what
   `git commit -a` does, because it seems to be analogous to `svn commit`.
