@@ -18,7 +18,7 @@ I need to learn about the staging area in git.
   <div class="in-retrospect">
     Maybe the way `git add` works seems strange to me because I've
     been using svn for a while. In svn commiting file modifications
-    and file additions is very different because for modifications,
+    and file additions are very different because for modifications,
     you only have to do `svn commit`; but for additions you have to do
     `svn add` before doing `svn commit`.
   </div>
