@@ -54,4 +54,12 @@ I need to learn about the staging area in git.
     commit. The history is simply figured out by traversing the
     parents, one commit at a time.
   </quote>
+
+  <a href="http://stevelosh.com/blog/2009/08/a-guide-to-branching-in-mercurial/">
+    The difference between branching in git vs. hg.
+  </a>
+  This is a greate article! Comparing the way these work aid in
+  understanding both. I also learned that hg has various ways of doing
+  branching. If/when copying bookmarks on hg clone gets implemented,
+  they will pretty much work just like git branches.
 </div>
