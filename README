@@ -63,3 +63,28 @@ I need to learn about the staging area in git.
   branching. If/when copying bookmarks on hg clone gets implemented,
   they will pretty much work just like git branches.
 </div>
+
+<div id="private-branches">
+  <quote src="http://learn.github.com/p/branching.html">
+    Git also importantly lets you keep these branches private if you
+    want - simply don't push them.
+  </quote>
+
+  This is cool :).
+</div>
+
+<div class="branch-management">
+  You will not switch branches when creating a branch. I guess this
+  follows my "a command should do exactly one thing" principle, but
+  for some reason, I was surprised that I had to do another command,
+  namely `git checkout <new-branch-name>`, to switch to my new branch :/
+</div>
+
+<div class="confict-resolution">
+  <quote src="http://learn.github.com/p/branching.html">
+    When you're done fixing [the merge conflict], all you have to do
+    is run 'git add' on the file to re-stage it, which marks it as
+    resolved. Then commit the merge.
+  </quote>
+</div>
+
