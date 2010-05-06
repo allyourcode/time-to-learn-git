@@ -92,3 +92,5 @@ I just found out about configuring git to work with my github
 account... after having already made some commits :(. You'd think that
 my ssh private key would be enough link my to my github account, but
 apparently not.
+
+Gah! I set github.username instead of github.user. Take 2.
